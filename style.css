@@ -1,0 +1,54 @@
+#log
+{
+	min-height: 600px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin: auto;
+	justify-content: space-around;
+}
+.txt
+{
+	color: white;
+}
+.bigtxt
+{
+	color: white;
+	font-size: 30px;
+}
+body
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 1.2rem;
+	background: #0f2027;
+    background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+    font-family: Arial;
+}
+
+#reg
+{
+	min-height: 900px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin: auto;
+	justify-content: space-around;
+}
+
+input, button
+{
+
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
